@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oswald Regular'), local('Oswald-Regular'), url(http://fonts.gstatic.com/s/oswald/v10/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  padding: 50px;
+  background: rgba(255, 255, 204, 0.31);
+  background: #333 url("http://subtlepatterns.com/patterns/dirty_old_shirt.png");
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Oswald", sans;
+  font-size: 80px;
+  color: white;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #999;
+  padding: 50px 0 0;
+  margin: 0px;
+}
+
+.example {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: 0px auto 50px;
+}
+
+.example-content {
+  min-height: 300px;
+  padding: 50px;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  color: DeepSkyBlue 
+}
+
+.hide {
+  display: none;
+}
+
+.example-definition .example-content {
+  min-height: 0px;
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 100;
+  color: #444;
+}
